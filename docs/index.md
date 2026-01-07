@@ -1,17 +1,18 @@
-# Welcome to Aegis Docs
+# Aegis Terminal
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the central intelligence hub for the Aegis algorithmic trading suite. This documentation covers the architecture, integration, and deployment of the 6-repo ecosystem.
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 🛰️ System Status
+| Component | Role | Repo |
+| :--- | :--- | :--- |
+| **Pulse** | Market Data Ingestion | `aegis-pulse` |
+| **Synapse** | Strategy & Logic | `aegis-synapse` |
+| **Axon** | Execution & Risk | `aegis-axon` |
+| **Cortex** | State & Persistence | `aegis-cortex` |
+| **Surface** | Monitoring UI | `aegis-surface` |
+| **Genome** | Type Definitions | `aegis-genome` |
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 🚀 Quick Start
+To understand how data flows from the Exchange to the UI, start with the [System Architecture](./system/architecture.md).
