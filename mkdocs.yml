@@ -1,0 +1,20 @@
+site_name: Aegis Docs
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo  # Or your preferred color
+    accent: indigo
+nav:
+  - Home: index.md
+  - System Design:
+      - Overview: system/overview.md
+      - Architecture: system/architecture.md
+      - Global Integration: system/integration.md
+  - Repository Reference:
+      - Shared: repos/aegis-genome/README.md
+      - Data Stream: repos/aegis-pulse/README.md
+      - Strategy: repos/aegis-synapse/README.md
+      - Execution: repos/aegis-axon/README.md
+      - Analytics: repos/aegis-cortex/README.md
+      - Frontend: repos/aegis-surface/README.md
